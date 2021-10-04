@@ -1,4 +1,4 @@
-name: NPM - Release
+name: GitHub Artifacts - Release
 
 on:
   push:
@@ -14,7 +14,7 @@ env:
   DeployCommand: npm run deploy
   Organization: mcgear
   Repository: data-flow
-  Output: build
+  Output: 
 
 jobs:
   build:
